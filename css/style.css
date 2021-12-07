@@ -1,0 +1,612 @@
+body{
+    margin: 0%;
+    background-color: #000000;
+}
+
+#Titulo{
+    text-align: center;
+    color: rgb(100, 104, 100);
+}
+
+.lin1{
+    background-color: #1C1C1C;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.lin2{
+    background-color: 	#778899;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.lin3{
+    background-color: #1C1C1C;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.lin4{
+    background-color: 	#778899;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.lin5{
+    background-color: #1C1C1C;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+.back{
+    background-color: #000000;
+    padding: 30px;
+}
+
+#codigoModal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+#imgModal{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+}
+
+#botaoFechar{
+    position: absolute;
+    top: 15px;
+    right: 170px;
+    color: gray;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao{
+    text-align: center;
+}
+
+#peso{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#peso img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#peso:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+
+#imagemPeso{
+    background-image: url(../contents/img1.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemPeso:hover{
+    background-image: url(../codigos/peso.png);
+}
+
+#parImpar{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#parImpar img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#parImpar:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemParImpar{
+    background-image: url(../contents/img2.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemParImpar:hover{
+    background-image: url(../codigos/parImpar.png);
+}
+
+#maior100{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#maior100 img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#maior100:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemMaior100{
+    background-image: url(../contents/img3.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemMaior100:hover{
+    background-image: url(../codigos/maior100.png);
+}
+
+#salario{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#salario img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#salario:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemSalario{
+    background-image: url(../contents/img4.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemSalario:hover{
+    background-image: url(../codigos/salario.png);
+}
+
+#umAteCinq{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#umAteCinq img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#umAteCinq:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemUmAteCinq{
+    background-image: url(../contents/img5.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemUmAteCinq:hover{
+    background-image: url(../codigos/umAteCinq.png);
+}
+
+#helloWorld{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#helloWorld img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#helloWorld:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemHelloWorld{
+    background-image: url(../contents/img6.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemHelloWorld:hover{
+    background-image: url(../codigos/helloWorld.png);
+}
+
+#pares{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#pares img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#pares:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemPares{
+    background-image: url(../contents/img7.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemPares:hover{
+    background-image: url(../codigos/pares.png);
+}
+
+#planoSaude{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#planoSaude img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#planoSaude:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemPlanoSaude{
+    background-image: url(../contents/img8.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemPlanoSaude:hover{
+    background-image: url(../codigos/planoSaude.png);
+}
+
+#carro{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#carro img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#carro:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemCarro{
+    background-image: url(../contents/img9.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemCarro:hover{
+    background-image: url(../codigos/carro.png);
+}
+
+#calculadora{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#calculadora img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#calculadora:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemCalculadora{
+    background-image: url(../contents/img10.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemCalculadora:hover{
+    background-image: url(../codigos/calculadora.png);
+}
+
+#cores{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#cores img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#cores:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemCores{
+    background-image: url(../contents/img11.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemCores:hover{
+    background-image: url(../codigos/cores.png);
+}
+
+#categoriaIMC{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#categoriaIMC img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#categoriaIMC:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemIMC{
+    background-image: url(../contents/img12.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemIMC:hover{
+    background-image: url(../codigos/categoriaIMC.png);
+}
+
+#maior{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#maior img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#maior:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemMaior{
+    background-image: url(../contents/img13.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemMaior:hover{
+    background-image: url(../codigos/maiorNumero.png);
+}
+
+#media{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#media img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#media:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemMedia{
+    background-image: url(../contents/img14.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemMedia:hover{
+    background-image: url(../codigos/media.png);
+}
+
+#maiorIdade{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#maiorIdade img{
+    padding-left: 30px;
+    width: 55px;
+    height: 25px;
+}
+
+#maiorIdade:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#imagemMaiorIdade{
+    background-image: url(../contents/img15.png);
+    width: 285px;
+    height: 95px;
+    cursor: pointer;
+}
+
+#imagemMaiorIdade:hover{
+    background-image: url(../codigos/maiorIdade.png);
+}
+
+.botTopo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    text-align: right;
+    background-color: #778899
+}
+
+#topo{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    padding: 3px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+}
+
+#topo:hover{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.foot{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+}
+
+footer{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    background-color: #1C1C1C;
+}

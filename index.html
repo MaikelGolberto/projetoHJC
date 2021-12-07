@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <title>Projeto Kerlla</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">ProjetoHJC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Questões JavaScript</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="back">
+      <div class="mb-4" id="Titulo">
+        <h3>Seja Bem-Vindo, para visualizar o código clique nas imagens</h3>
+      </div>
+    <div class="lin1">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-lg-4">  
+                  <div class="card" style="width: 18rem;">
+                    <div id="imagemPeso" onclick="clique('codigos/peso.png')">
+                      <a onclick="clique('codigos/peso.png')"><img class="card-img-top"></a>
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Peso Ideal</h5>
+                    <p class="card-text">Programa para informar o seu peso ideal</p>
+                    <br>
+                    <br>
+                    <div class="botao">
+                      <button id="peso" onclick="peso()">Executar<img src="contents/icon1.png"></button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card" style="width: 18rem;">
+                    <div id="imagemParImpar" onclick="clique('codigos/parImpar.png')">
+                      <a onclick="clique('codigos/parImpar.png')"><img class="card-img-top"></a>
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Par ou Ímpar</h5>
+                    <p class="card-text">Programa para informar se o número digitado é par ou ímpar</p>
+                    <br>
+                    <br>
+                    <div class="botao">  
+                      <button id="parImpar" onclick="parImpar()">Executar<img src="contents/icon2.png"></button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <div id="imagemMaior100" onclick="clique('codigos/maior100.png')">
+                          <a onclick="clique('codigos/maior100.png')"><img class="card-img-top"></a>
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title">Maior que 100</h5>
+                        <p class="card-text">Se o número informado for maior do que 100 ele será exibido, se não, será retornado o valor 0</p>
+                        <br>
+                        <div class="botao">  
+                          <button id="maior100" onclick="maior100()">Executar<img src="contents/icon3.png"></button>
+                        </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lin2"> 
+      <div class="container mt-4">
+          <div class="row">
+              <div class="col-lg-4">  
+                <div class="card" style="width: 18rem;">
+                  <div id="imagemSalario" onclick="clique('codigos/salario.png')">
+                    <a onclick="clique('codigos/salario.png')"><img class="card-img-top"></a>
+                  </div>
+                  <div class="card-body">
+                  <h5 class="card-title">Salário Líquido</h5>
+                  <p class="card-text">Programa para informar o salário líquido do funcionário</p>
+                  <br>
+                  <br>
+                  <div class="botao">
+                    <button id="salario" onclick="salario()">Executar<img src="contents/icon4.png"></button>
+                  </div>
+                  </div>
+              </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                  <div id="imagemUmAteCinq" onclick="clique('codigos/umAteCinq.png')">
+                    <a onclick="clique('codigos/umAteCinq.png')"><img class="card-img-top"></a>
+                  </div>
+                  <div class="card-body">
+                  <h5 class="card-title">Um até Cinquenta</h5>
+                  <p class="card-text">Programa para exibir na tela os valores de 1 até 50. Obs: Troquei 'document.write' por 'alert' para manter o site mais dinâmico</p>
+                  <div class="botao">
+                    <button id="umAteCinq" onclick="umAteCinq()">Executar<img src="contents/icon5.png"></button>
+                  </div>
+                  </div>
+              </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="card" style="width: 18rem;">
+                      <div id="imagemHelloWorld" onclick="clique('codigos/helloWorld.png')">
+                        <a onclick="clique('codigos/helloWorld.png')"><img class="card-img-top"></a>
+                      </div>
+                      <div class="card-body">
+                      <h5 class="card-title">Hello World!</h5>
+                      <p class="card-text">Programa para exibir na tela 'Hello World' 11 vezes. Obs: Troquei 'document.write' por 'alert' para manter o site mais dinâmico</p>
+                      <div class="botao">
+                        <button id="helloWorld" onclick="helloWorld()">Executar<img src="contents/icon6.png"></button>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="lin3"> 
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-4">  
+              <div class="card" style="width: 18rem;">
+                <div id="imagemPares" onclick="clique('codigos/pares.png')">
+                  <a onclick="clique('codigos/pares.png')"><img class="card-img-top"></a>
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Pares</h5>
+                <p class="card-text">Programa para exibir os números pares de 1 até 100. Obs: Troquei 'document.write' por 'alert' para manter o site mais dinâmico</p>
+                <div class="botao">
+                  <button id="pares" onclick="pares()">Executar<img src="contents/icon7.png"></button>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <div id="imagemPlanoSaude" onclick="clique('codigos/planoSaude.png')">
+                  <a onclick="clique('codigos/planoSaude.png')"><img class="card-img-top"></a>
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Plano de Saúde</h5>
+                <p class="card-text">Programa para informar o valor a ser pago pelo plano de saúde de acordo com a idade do cliente</p>
+                <br>
+                <div class="botao">
+                  <button id="planoSaude" onclick="planoSaude()">Executar<img src="contents/icon8.png"></button>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <div id="imagemCarro" onclick="clique('codigos/carro.png')">
+                      <a onclick="clique('codigos/carro.png')"><img class="card-img-top"></a>
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Loja de Veículos</h5>
+                    <p class="card-text">Programa que simula a compra de determinado tipo de veículo</p>
+                    <br>
+                    <br>
+                    <div class="botao">
+                      <button id="carro" onclick="carro()">Executar<img src="contents/icon9.png"></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="lin4"> 
+  <div class="container mt-4">
+      <div class="row">
+          <div class="col-lg-4">  
+            <div class="card" style="width: 18rem;">
+              <div id="imagemCalculadora" onclick="clique('codigos/calculadora.png')">
+                <a onclick="clique('codigos/calculadora.png')"><img class="card-img-top"></a>
+              </div>
+              <div class="card-body">
+              <h5 class="card-title">Calculadora</h5>
+              <p class="card-text">Programa que realiza operações de: Soma, subtração, multiplicação e divisão</p>
+              <br>
+              <div class="botao">
+                <button id="calculadora" onclick="calculadora()">Executar<img src="contents/icon10.png"></button>
+              </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <div id="imagemCores" onclick="clique('codigos/cores.png')">
+                <a onclick="clique('codigos/cores.png')"><img class="card-img-top"></a>
+              </div>
+              <div class="card-body">
+              <h5 class="card-title">Significado Cores</h5>
+              <p class="card-text">Programa para informar o significado das cores</p>
+              <br>
+              <br>
+              <div class="botao">
+                <button id="cores" onclick="cores()">Executar<img src="contents/icon11.png"></button>
+              </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                  <div id="imagemIMC" onclick="clique('codigos/categoriaIMC.png')">
+                    <a onclick="clique('codigos/categoriaIMC.png')"><img class="card-img-top"></a>
+                  </div>
+                  <div class="card-body">
+                  <h5 class="card-title">Categoria IMC</h5>
+                  <p class="card-text">Programa para informar o seu IMC e a categoria à qual pertence</p>
+                  <br>
+                  <br>
+                  <div class="botao">
+                    <button id="categoriaIMC" onclick="categoriaIMC()">Executar<img src="contents/icon12.png"></button>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="lin5"> 
+  <div class="container mt-4">
+      <div class="row">
+          <div class="col-lg-4">  
+            <div class="card" style="width: 18rem;">
+              <div id="imagemMaior" onclick="clique('codigos/maiorNumero.png')">
+                <a onclick="clique('codigos/maiorNumero.png')"><img class="card-img-top"></a>
+              </div>
+              <div class="card-body">
+              <h5 class="card-title">Maior Número</h5>
+              <p class="card-text">Programa que informa qual foi o maior número digitado</p>
+              <br>
+              <br>
+              <div class="botao">
+                <button id="maior" onclick="maiorNumero()">Executar<img src="contents/icon13.png"></button>
+              </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <div id="imagemMedia" onclick="clique('codigos/media.png')">
+                <a onclick="clique('codigos/media.png')"><img class="card-img-top"></a>
+              </div>
+              <div class="card-body">
+              <h5 class="card-title">Média de Notas</h5>
+              <p class="card-text">Programa que calcula a média entre três notas de um aluno</p>
+              <br>
+              <br>
+              <div class="botao">
+                <button id="media" onclick="media()">Executar<img src="contents/icon14.png"></button>
+              </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="card" style="width: 18rem;">
+                  <div id="imagemMaiorIdade" onclick="clique('codigos/maiorIdade.png')">
+                    <a onclick="clique('codigos/maiorIdade.png')"><img class="card-img-top"></a>
+                  </div>
+                  <div class="card-body">
+                  <h5 class="card-title">Maior Idade</h5>
+                  <p class="card-text">Programa para informar se é ou não é maior de idade</p>
+                  <br>
+                  <br>
+                  <div class="botao">
+                    <button id="maiorIdade" onclick="maiorIdade()">Executar<img src="contents/icon15.png"></button>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+  <div class="botTopo">
+    <a href="index.html"><button id="topo">Voltar ao Topo</button></a>
+  </div>
+</div>
+  </div>
+  <div id="codigoModal">
+    <span id="botaoFechar">x</span>
+    <img id="imgModal">
+  </div>
+  <div class="foot">
+    <footer><p>&copy; 2021 Todos os Direitos Reservados :: Desenvolvido por: Maikel Golberto Gontijo</p></footer>
+  </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
